@@ -51,9 +51,7 @@ public class RunnerTest implements TestGenerator {
         });
 
 
-        // The time adding methods seems to increase exponentially .. ?
-
-        for (int i=0; i<30; i++) {
+        for (int i=0; i<50; i++) {
             consumer.accept(i + " + 1 = " + (i + 1), () -> {
                 // Pretending to test..
             });
